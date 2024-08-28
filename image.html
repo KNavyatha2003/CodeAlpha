@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="image.css">
+</head>
+<body>
+   <center> <img src="Screenshot 2024-08-27 150221.png"></center>
+    <div class="gallery">
+        <div class="gallery-item" onclick="openModal();currentSlide(1)">
+            <img src="p1.jpg" alt="Image 1">
+        </div>
+        <div class="gallery-item" onclick="openModal();currentSlide(2)">
+            <img src="p2.jpg" alt="Image 2">
+        </div>
+        <div class="gallery-item" onclick="openModal();currentSlide(3)">
+            <img src="p3.jpg" alt="Image 3">
+        </div>
+        <div class="gallery-item" onclick="openModal();currentSlide(3)">
+            <img src="p4.jpg" alt="Image 3">
+        </div>
+        <div class="gallery-item" onclick="openModal();currentSlide(3)">
+            <img src="p5.jpg" alt="Image 3">
+        </div>
+        <div class="gallery-item" onclick="openModal();currentSlide(3)">
+            <img src="p6.jpg" alt="Image 3">
+        </div>
+        <div class="gallery-item" onclick="openModal();currentSlide(3)">
+            <img src="p7.jpg" alt="Image 3">
+        </div>
+        <div class="gallery-item" onclick="openModal();currentSlide(3)">
+            <img src="p8.jpg" alt="Image 3">
+        </div>
+        <div class="gallery-item" onclick="openModal();currentSlide(3)">
+            <img src="1.jpg" alt="Image 3">
+        </div>
+        <div class="gallery-item" onclick="openModal();currentSlide(3)">
+            <img src="2.jpg" alt="Image 3">
+        </div>
+        <div class="gallery-item" onclick="openModal();currentSlide(3)">
+            <img src="3.jpg" alt="Image 3">
+        </div>
+        <div class="gallery-item" onclick="openModal();currentSlide(3)">
+            <img src="4.jpg" alt="Image 3">
+        </div>
+        <div class="gallery-item" onclick="openModal();currentSlide(3)">
+            <img src="5.jpg" alt="Image 3">
+        </div>
+        <div class="gallery-item" onclick="openModal();currentSlide(3)">
+            <img src="6.jpg" alt="Image 3">
+        </div>
+        <div class="gallery-item" onclick="openModal();currentSlide(3)">
+            <img src="7.jpg" alt="Image 3">
+        </div>
+        <div class="gallery-item" onclick="openModal();currentSlide(3)">
+            <img src="8.jpg" alt="Image 3">
+        </div>
+        <!-- Add more images as needed -->
+    </div>
+
+    <!-- Modal for full-size image -->
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <img src="p1.jpg" alt="Image 1">
+            </div>
+
+            <div class="mySlides">
+                <img src="p2.jpg" alt="Image 2">
+            </div>
+
+            <div class="mySlides">
+                <img src="p3.jpg" alt="Image 3">
+            </div>
+            <div class="mySlides">
+                <img src="p4.jpg" alt="Image 3">
+            </div>
+            <div class="mySlides">
+                <img src="p5.jpg" alt="Image 3">
+            </div>
+            <div class="mySlides">
+                <img src="p6.jpg" alt="Image 3">
+            </div>
+            <div class="mySlides">
+                <img src="p7.jpg" alt="Image 3">
+            </div>
+            <div class="mySlides">
+                <img src="p8.jpg" alt="Image 3">
+            </div>
+            <div class="mySlides">
+                <img src="1.jpg" alt="Image 3">
+            </div>
+            <div class="mySlides">
+                <img src="2.jpg" alt="Image 3">
+            </div>
+            <div class="mySlides">
+                <img src="3.jpg" alt="Image 3">
+            </div>
+            <div class="mySlides">
+                <img src="4.jpg" alt="Image 3">
+            </div>
+            <div class="mySlides">
+                <img src="5.jpg" alt="Image 3">
+            </div>
+            <div class="mySlides">
+                <img src="6.jpg" alt="Image 3">
+            </div>
+            <div class="mySlides">
+                <img src="7.jpg" alt="Image 3">
+            </div>
+            <div class="mySlides">
+                <img src="8.jpg" alt="Image 3">
+            </div>
+
+
+
+
+
+            <!-- Next/prev buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+    </div>
+
+    <script src="image.js"></script>
+</body>
+</html>
